@@ -1,10 +1,13 @@
-<html>
-    <body>
-<form role="form" action="submit.php" method="post">
-    <input name="name" required="required" type="text" placeholder="Enter Your Name" />
-    <input name="email" required="required" type="email" placeholder="Email ID"/>
-    <input name="mobile" required="required" type="text" placeholder="Enter Mobile No"/>
-    <textarea name="message" placeholder="Enter Any Message"></textarea>
-    <input name="submit" type="submit" value="Send a Mail" /></form>
-</body>
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+    Name:<br>
+    <input type="text" name="name"><br>
+    E-mail:<br>
+    <input type="text" name="mail"><br>
+    Comment:<br>
+    <input type="text" name="comment" size="50"><br><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+    </form>
+    
+    </body>
     </html>
